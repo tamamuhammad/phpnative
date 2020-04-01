@@ -1,0 +1,6 @@
+<ifModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^artikel index.php?halaman=artikel [NC,L]
+RewriteRule ^kategori index.php?halaman=kategori [NC,L]
+RewriteRule ^komentar index.php?halaman=komentar [NC,L]
+</ifModule>

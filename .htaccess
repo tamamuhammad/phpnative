@@ -1,0 +1,6 @@
+<ifModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^beranda index.php?halaman=beranda [NC,L]
+RewriteRule ^kesan index.php?halaman=kesan [NC,L]
+RewriteRule ^tentang index.php?halaman=tentang [NC,L]
+</ifModule>
